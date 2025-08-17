@@ -94,3 +94,88 @@
 
 <h3> ⚡Visualization<h3>
 <img width="645" height="622" alt="download" src="https://github.com/user-attachments/assets/a5b72980-80ae-4917-8e7e-9f8c7a83b664" />
+
+
+---
+
+
+<h1>Project 2 - Indian Diabetes Prediction using CNN</h1>
+
+<h2>📌 Project Overview</h2>
+<p>
+This project applies a Convolutional Neural Network (CNN) to predict the likelihood of diabetes among Indian patients. 
+It demonstrates the use of deep learning for healthcare analytics, leveraging patient health attributes for accurate classification.
+</p>
+
+<h2>🧠 Problem Statement</h2>
+<p>
+Given medical features such as glucose level, blood pressure, insulin, BMI, and other attributes, 
+the objective is to classify whether a patient is diabetic or non-diabetic. 
+This aids in early diagnosis and proactive healthcare decisions.
+</p>
+
+<h2>📂 Dataset</h2>
+<p>
+The dataset used is the <b>Indian Diabetes Dataset</b> (inspired from the Pima Indians Diabetes dataset).  
+It includes patient health records such as:
+</p>
+<ul>
+  <li>Pregnancies</li>
+  <li>Glucose Level</li>
+  <li>Blood Pressure</li>
+  <li>Skin Thickness</li>
+  <li>Insulin</li>
+  <li>BMI</li>
+  <li>Diabetes Pedigree Function</li>
+  <li>Age</li>
+  <li>Outcome (0 = Non-diabetic, 1 = Diabetic)</li>
+</ul>
+
+<h2>🛠️ Technologies Used</h2>
+<ul>
+  <li>Python</li>
+  <li>TensorFlow / Keras</li>
+  <li>Pandas, NumPy</li>
+  <li>Matplotlib, Seaborn</li>
+  <li>Scikit-learn</li>
+</ul>
+
+<h2>🔍 Workflow</h2>
+<ol>
+  <li>Data Loading & Cleaning</li>
+  <li>Exploratory Data Analysis (EDA)</li>
+  <li>Data Preprocessing (scaling, handling missing values)</li>
+  <li>Model Building with Convolutional Neural Network (CNN)</li>
+  <li>Training & Validation</li>
+  <li>Evaluation using Accuracy</li>
+</ol>
+
+<h2>📊 Results & Observations</h2>
+<table border="1" cellpadding="6" cellspacing="0">
+  <tr>
+    <th>Model</th>
+    <th>Accuracy</th>
+  </tr>
+  <tr>
+    <td>CNN (Initial)</td>
+    <td>72.92%</td>
+  </tr>
+  <tr>
+    <td>CNN (Improved)</td>
+    <td><b>75.91%</b> 🌟</td>
+  </tr>
+</table>
+
+<h2>✅ Key Takeaways</h2>
+<p>
+The improved CNN model outperformed the initial version, achieving around 76% accuracy. 
+This shows that deep learning models like CNN can provide reliable predictions for healthcare datasets 
+and support early diabetes detection.
+</p>
+
+The improved CNN model outperformed the initial version, achieving around 76% accuracy. 
+This shows that deep learning models like CNN can provide reliable predictions for healthcare datasets 
+and support early diabetes detection.
+</p>
+
+
